@@ -24,4 +24,8 @@ Two methods are involve in the project for the payment.
 1.Stripe: Implemented using the vendor folder for secure and efficient payment processing.
 
 2.) PayPal: Integrated using CDN for seamless transactions.
+
+Create Database: Set up the tour_management database.
+
+ Import SQL File: Import the project.sql file into the database to create the necessary tables and data structures.
 In This project,all possible things are describes about the tour mangement project and easily understand the process of tour management pacakges system.
