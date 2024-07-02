@@ -142,9 +142,9 @@ if ($status_result->num_rows > 0) {
                     } else {
                         var result = JSON.parse(response);
                         console.log(result);
-                        //stripe.redirectToCheckout({
-                        //sessionId: response.id
-                        //  });
+                        stripe.redirectToCheckout({
+                        sessionId: response.sessionurl
+                          });
                     }
                 },
                 error: function(xhr, status, error) {
