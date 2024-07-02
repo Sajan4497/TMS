@@ -141,10 +141,8 @@ if ($status_result->num_rows > 0) {
                         alert(response.error);
                     } else {
                         var result = JSON.parse(response);
-                        console.log(result);
-                        stripe.redirectToCheckout({
-                        sessionId: response.sessionurl
-                          });
+                         window.location.href = result.sessionurl;
+                          
                     }
                 },
                 error: function(xhr, status, error) {
